@@ -139,7 +139,7 @@ model  = BaselineCNN(num_classes=7).to(device)
 opt    = Adam(model.parameters(), lr=1e-3)
 loss_fn= nn.CrossEntropyLoss()
 
-# train for 5 epochs
+# train for 20 epochs
 for epoch in range(20):
     model.train()
     running_loss = 0
