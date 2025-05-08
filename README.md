@@ -1,3 +1,6 @@
+All files were originally created in google colab
+
+
 Final Project using FER2013 Dataset - 7 classes/emotions
 
 Baseline_CNN.py : uses two small convolution blocks to reach a 12 × 12 latent grid without destroying detail.
